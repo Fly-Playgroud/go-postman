@@ -90,6 +90,7 @@ func parseProperty(name string, schema, gProperty gson.JSON) *property {
 		}
 		property.definition = def
 	}
+	return property
 }
 
 func refDef(global gson.JSON, ref string) gson.JSON {
